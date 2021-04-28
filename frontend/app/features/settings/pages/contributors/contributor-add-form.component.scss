@@ -1,0 +1,13 @@
+.autocomplete-user {
+    & {
+        @include truncate;
+    }
+
+    .user-name {
+        margin-left: .25rem;
+    }
+}
+
+.table-items-header {
+    margin: 0;
+}

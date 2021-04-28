@@ -1,0 +1,24 @@
+:host /deep/ {
+    .form-control {
+        @include placeholder-color($color-theme-blue-light);
+        background: darken($color-white, 5%);
+        border: 0;
+        color: $color-white;
+    }
+
+    i {
+        color: $color-dark-foreground;
+    }
+}
+
+.search-container {
+    width: 300px;
+}
+
+.search-icon {
+    font-size: 1.25rem;
+}
+
+.row {
+    overflow: hidden;
+}
